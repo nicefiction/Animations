@@ -14,6 +14,7 @@
 		09F6B51D26296F71001EA1BD /* ImplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B51C26296F71001EA1BD /* ImplicitAnimations.swift */; };
 		09F6B52126297B2A001EA1BD /* CustomizingAnimations_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52026297B2A001EA1BD /* CustomizingAnimations_Part1.swift */; };
 		09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */; };
+		09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B527262985FE001EA1BD /* AnimatingBindings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		09F6B51C26296F71001EA1BD /* ImplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimations.swift; sourceTree = "<group>"; };
 		09F6B52026297B2A001EA1BD /* CustomizingAnimations_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations_Part1.swift; sourceTree = "<group>"; };
 		09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations_Part2.swift; sourceTree = "<group>"; };
+		09F6B527262985FE001EA1BD /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				09F6B51C26296F71001EA1BD /* ImplicitAnimations.swift */,
 				09F6B52026297B2A001EA1BD /* CustomizingAnimations_Part1.swift */,
 				09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */,
+				09F6B527262985FE001EA1BD /* AnimatingBindings.swift */,
 			);
 			path = Day32;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				09F6B51D26296F71001EA1BD /* ImplicitAnimations.swift in Sources */,
 				09F6B52126297B2A001EA1BD /* CustomizingAnimations_Part1.swift in Sources */,
+				09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */,
 				09F6B50E26296D0B001EA1BD /* ContentView.swift in Sources */,
 				09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */,
 				09F6B50C26296D0B001EA1BD /* AnimationsApp.swift in Sources */,
