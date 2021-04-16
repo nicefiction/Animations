@@ -15,6 +15,7 @@
 		09F6B52126297B2A001EA1BD /* CustomizingAnimations_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52026297B2A001EA1BD /* CustomizingAnimations_Part1.swift */; };
 		09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */; };
 		09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B527262985FE001EA1BD /* AnimatingBindings.swift */; };
+		09F6B52B26298E9C001EA1BD /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		09F6B52026297B2A001EA1BD /* CustomizingAnimations_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations_Part1.swift; sourceTree = "<group>"; };
 		09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations_Part2.swift; sourceTree = "<group>"; };
 		09F6B527262985FE001EA1BD /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
+		09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				09F6B52026297B2A001EA1BD /* CustomizingAnimations_Part1.swift */,
 				09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */,
 				09F6B527262985FE001EA1BD /* AnimatingBindings.swift */,
+				09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */,
 			);
 			path = Day32;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				09F6B52126297B2A001EA1BD /* CustomizingAnimations_Part1.swift in Sources */,
 				09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */,
 				09F6B50E26296D0B001EA1BD /* ContentView.swift in Sources */,
+				09F6B52B26298E9C001EA1BD /* ExplicitAnimations.swift in Sources */,
 				09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */,
 				09F6B50C26296D0B001EA1BD /* AnimationsApp.swift in Sources */,
 			);
