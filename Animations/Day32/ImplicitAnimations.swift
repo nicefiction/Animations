@@ -32,16 +32,14 @@ struct ImplicitAnimations: View {
     
     var body: some View {
         
-        Button("Tap Me") {
+        Button("\(Image(systemName: "hand.tap"))") {
             /** `STEP 3`:
              Finally , when the button is tapped
              we want to increase the animation amount by 1 :
              */
             animationAmount += 1
         }
-        .font(.system(size : 21.00 ,
-                      weight : .medium ,
-                      design : .rounded))
+        .font(.largeTitle)
         .padding(50)
         .background(Color.red)
         .foregroundColor(.white)

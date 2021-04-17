@@ -19,7 +19,7 @@ struct CustomizingAnimations_Part2: View {
     var body: some View {
         
         VStack {
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -47,7 +47,7 @@ struct CustomizingAnimations_Part2: View {
              */
             
             
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -78,7 +78,7 @@ struct CustomizingAnimations_Part2: View {
              to make a sort of pulsating circle around the button :
              */
             
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 // animationAmount += 1
             }
             .padding(40)
@@ -101,9 +101,7 @@ struct CustomizingAnimations_Part2: View {
                 self.animationAmount = 2
             }
         }
-        .font(.system(size : 18.00 ,
-                      weight : .semibold ,
-                      design : .rounded))
+        .font(.largeTitle)
     }
 }
 

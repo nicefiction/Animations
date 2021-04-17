@@ -30,8 +30,7 @@ struct ExplicitAnimations: View {
     var body: some View {
         
         VStack {
-            Button("Tap Me") {
-                // Do Something
+            Button("\(Image(systemName: "hand.tap"))") {
                 withAnimation {
                     self.animationAmount += 360
                 }
@@ -46,7 +45,7 @@ struct ExplicitAnimations: View {
              `withAnimation()` can be given an animation parameter ,
              using all the same animations you can use elsewhere in SwiftUI :
              */
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 // Do Something
                 withAnimation(
                     Animation
@@ -63,9 +62,7 @@ struct ExplicitAnimations: View {
             .rotation3DEffect(.degrees(Double(animationAmount)) ,
                               axis : (x : 0.0 , y : 1.0 , z : 0.0))
         }
-        .font(.system(size : 18.00 ,
-                      weight : .semibold ,
-                      design : .rounded))
+        .font(.largeTitle)
         .foregroundColor(.white)
     }
 }

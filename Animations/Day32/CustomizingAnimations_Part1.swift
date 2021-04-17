@@ -1,4 +1,4 @@
-//  CustomizingAnimations.swift
+//  CustomizingAnimations_Part1.swift
 /**
  SOURCE :
  https://www.hackingwithswift.com/books/ios-swiftui/customizing-animations-in-swiftui
@@ -33,7 +33,7 @@ struct CustomizingAnimations: View {
     var body: some View {
         
         VStack {
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -45,7 +45,7 @@ struct CustomizingAnimations: View {
             .animation(.default)
             
             
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -61,7 +61,7 @@ struct CustomizingAnimations: View {
             .animation(.easeOut)
             
             
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -81,7 +81,7 @@ struct CustomizingAnimations: View {
             .animation(.interpolatingSpring(stiffness : 50.00 ,
                                             damping : 1.00))
             
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -98,7 +98,7 @@ struct CustomizingAnimations: View {
             .animation(.easeInOut(duration : 2.00))
             
             
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 animationAmount += 1
             }
             .padding(40)
@@ -124,9 +124,7 @@ struct CustomizingAnimations: View {
              because otherwise Swift isn’t quite sure what we mean :
              */
         }
-        .font(.system(size : 18 ,
-                      weight : .semibold ,
-                      design : .rounded))
+        .font(.largeTitle)
     }
 }
 

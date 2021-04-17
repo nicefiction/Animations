@@ -59,12 +59,10 @@ struct AnimatingBindings: View {
                     ) ,
                     in : 1...10)
             Spacer()
-            Button("Tap Me") {
+            Button("\(Image(systemName: "hand.tap"))") {
                 self.animationAmount += 1
             }
-            .font(.system(size : 18.00 ,
-                          weight : .semibold ,
-                          design : .rounded))
+            .font(.largeTitle)
             .padding(40)
             .background(Color.orange)
             .foregroundColor(.white)

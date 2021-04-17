@@ -1,6 +1,21 @@
 //  AnimationStack.swift
 /**
  SOURCE :  https://www.hackingwithswift.com/books/ios-swiftui/controlling-the-animation-stack
+ 
+ Concept one :
+ Modifier order matters ,
+ because SwiftUI wraps views with modifiers in the order they are applied .
+ Only changes that occur before the `animation()` modifier get animated .
+
+ Concept two :
+ We can apply an `animation()` modifier to a view
+ in order to have it implicitly animate changes .
+ 
+ Concept one + two :
+ We can apply multiple `animation()` modifiers ,
+ each one controls everything before it up to the next animation .
+ This allows us to animate state changes in all sorts of different ways
+ rather than uniformly for all properties .
  */
 
 import SwiftUI

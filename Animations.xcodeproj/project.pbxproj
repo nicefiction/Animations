@@ -17,6 +17,8 @@
 		09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B527262985FE001EA1BD /* AnimatingBindings.swift */; };
 		09F6B52B26298E9C001EA1BD /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */; };
 		09F6B52F262AAA69001EA1BD /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52E262AAA68001EA1BD /* AnimationStack.swift */; };
+		09F6B533262AB0BE001EA1BD /* AnimatingGestures_Part1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B532262AB0BE001EA1BD /* AnimatingGestures_Part1.swift */; };
+		09F6B538262ADBEE001EA1BD /* AnimatingGestures_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B537262ADBEE001EA1BD /* AnimatingGestures_Part2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		09F6B527262985FE001EA1BD /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
 		09F6B52E262AAA68001EA1BD /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
+		09F6B532262AB0BE001EA1BD /* AnimatingGestures_Part1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures_Part1.swift; sourceTree = "<group>"; };
+		09F6B537262ADBEE001EA1BD /* AnimatingGestures_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingGestures_Part2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			isa = PBXGroup;
 			children = (
 				09F6B52E262AAA68001EA1BD /* AnimationStack.swift */,
+				09F6B532262AB0BE001EA1BD /* AnimatingGestures_Part1.swift */,
+				09F6B537262ADBEE001EA1BD /* AnimatingGestures_Part2.swift */,
 			);
 			path = Day33;
 			sourceTree = "<group>";
@@ -175,8 +181,10 @@
 				09F6B51D26296F71001EA1BD /* ImplicitAnimations.swift in Sources */,
 				09F6B52126297B2A001EA1BD /* CustomizingAnimations_Part1.swift in Sources */,
 				09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */,
+				09F6B533262AB0BE001EA1BD /* AnimatingGestures_Part1.swift in Sources */,
 				09F6B50E26296D0B001EA1BD /* ContentView.swift in Sources */,
 				09F6B52B26298E9C001EA1BD /* ExplicitAnimations.swift in Sources */,
+				09F6B538262ADBEE001EA1BD /* AnimatingGestures_Part2.swift in Sources */,
 				09F6B52F262AAA69001EA1BD /* AnimationStack.swift in Sources */,
 				09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */,
 				09F6B50C26296D0B001EA1BD /* AnimationsApp.swift in Sources */,
