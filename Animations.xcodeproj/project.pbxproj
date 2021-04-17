@@ -16,6 +16,7 @@
 		09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */; };
 		09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B527262985FE001EA1BD /* AnimatingBindings.swift */; };
 		09F6B52B26298E9C001EA1BD /* ExplicitAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */; };
+		09F6B52F262AAA69001EA1BD /* AnimationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F6B52E262AAA68001EA1BD /* AnimationStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		09F6B5242629811A001EA1BD /* CustomizingAnimations_Part2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizingAnimations_Part2.swift; sourceTree = "<group>"; };
 		09F6B527262985FE001EA1BD /* AnimatingBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingBindings.swift; sourceTree = "<group>"; };
 		09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimations.swift; sourceTree = "<group>"; };
+		09F6B52E262AAA68001EA1BD /* AnimationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				09F6B51B26296F4C001EA1BD /* Day32 */,
+				09F6B52D262AAA3E001EA1BD /* Day33 */,
 				09F6B50B26296D0B001EA1BD /* AnimationsApp.swift */,
 				09F6B50D26296D0B001EA1BD /* ContentView.swift */,
 				09F6B50F26296D0E001EA1BD /* Assets.xcassets */,
@@ -90,6 +93,14 @@
 				09F6B52A26298E9C001EA1BD /* ExplicitAnimations.swift */,
 			);
 			path = Day32;
+			sourceTree = "<group>";
+		};
+		09F6B52D262AAA3E001EA1BD /* Day33 */ = {
+			isa = PBXGroup;
+			children = (
+				09F6B52E262AAA68001EA1BD /* AnimationStack.swift */,
+			);
+			path = Day33;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 				09F6B528262985FF001EA1BD /* AnimatingBindings.swift in Sources */,
 				09F6B50E26296D0B001EA1BD /* ContentView.swift in Sources */,
 				09F6B52B26298E9C001EA1BD /* ExplicitAnimations.swift in Sources */,
+				09F6B52F262AAA69001EA1BD /* AnimationStack.swift in Sources */,
 				09F6B5252629811A001EA1BD /* CustomizingAnimations_Part2.swift in Sources */,
 				09F6B50C26296D0B001EA1BD /* AnimationsApp.swift in Sources */,
 			);
