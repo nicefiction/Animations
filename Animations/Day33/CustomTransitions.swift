@@ -1,9 +1,16 @@
-//
-//  CustomTransitions.swift
-//  Animations
-//
-//  Created by Olivier Van hamme on 17/04/2021.
-//
+///  CustomTransitions.swift
+/**
+ SOURCE :
+ https://www.hackingwithswift.com/books/ios-swiftui/building-custom-transitions-using-viewmodifier
+ 
+ It is possible – and actually surprisingly easy –
+ to create wholly new transitions for SwiftUI ,
+ allowing us to add and remove views using entirely custom animations .
+ This functionality is made possible by the `.modifier` transition ,
+ which accepts any view modifier we want .
+ The catch is that we need to be able to instantiate the modifier ,
+ which means it needs to be one we create ourselves .
+ */
 
 import SwiftUI
 
@@ -36,10 +43,11 @@ struct CornerRotateModifier: ViewModifier {
     }
 }
 /**
- We can try that straight away using the `.modifier transition` ,
+ We can try that straight away
+ using the `.modifier transition` ,
  but it is a little unwieldy .
  A better idea is to wrap that in an `extension` to `AnyTransition` ,
- making it rotate from -90 to 0 on its top leading corner :
+ making it rotate from -90 to 0 on its _top leading_ corner :
  */
 extension AnyTransition {
     
